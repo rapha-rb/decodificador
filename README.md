@@ -1,4 +1,4 @@
 # decodificador
 #challengeonedecodificador2
 
-Decodificador de mensagens em JavaScrip.
+Decodificador de mensagens em JavaScript.
