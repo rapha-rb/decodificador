@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 30px;
+
+}
+
+#texto {
+    width: 600px;
+}
+
+#texto::-webkit-input-placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    Color: #0A3871;
+}
+
+#final {
+    width: 300px;
+    background-image: url("/img/busca.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+}
+
+#cifrar,
+#decifrar,
+#limpar {
+    width: 280px;
+    height: 67px;
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+#limpar {
+    margin-top: 55px;
+}
+
+@media screen and (max-width: 480px) {
+
+    body {
+        display: block;
+    }
+
+    #texto,
+    #final {
+        display: block;
+        width: 100%;
+    }
+
+    #cifrar,
+    #decifrar,
+    #limpar {
+        justify-content: center;
+        margin: 10px 50px 10px 50px;
+
+    }
+
+    #limpar {
+        margin-top: 10px;
+    }
+
+
+}
