@@ -30,7 +30,7 @@ function decode() {
   const result = decifrar(string);
 
   document.getElementById("result").innerHTML =
-    ("<textarea cols=40 rows=40>" + result + "</textarea><br>");
+    ("<textarea cols=40 rows=30>" + result + "</textarea><br>");
 }
 
 function limpar() {
